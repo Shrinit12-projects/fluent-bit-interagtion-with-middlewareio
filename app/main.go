@@ -92,7 +92,7 @@ func generateLogs() {
 	writeLog(LogEntry{
 		Level:        "INFO",
 		Service:      "api-gateway",
-		Message:      fmt.Sprintf("API request processed"),
+		Message:      "API request processed",
 		UserID:       user,
 		Endpoint:     endpoint,
 		ResponseTime: responseTime,
